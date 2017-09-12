@@ -1,0 +1,85 @@
+.heading-container {
+  background: url(../img/terrace.jpeg) no-repeat;
+  background-size: cover;
+  height: 31rem;
+}
+
+header {
+  text-align: center;
+  margin-top: 3rem;
+  position: absolute;
+  width: 100%;
+  .heading-title {
+    color: $color-heading;
+    font-size: 5rem;
+  }
+  .menu-item {
+    color: $color-heading;
+    text-transform: uppercase;
+  }
+}
+
+/*
+reservations
+*/
+#reservations {
+  height: fit-content;
+}
+form {
+  height: inherit;
+  border: 1px solid #a9a2a2;
+  background-color: $color-form-background;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  legend {
+    font-size: 2.5rem;
+    margin: 2rem auto 0;
+  }
+  .reservation-personal-input {
+    text-align: left;
+    input {
+      width: 15rem;
+    }
+  }
+  .reservation-time-input {
+    text-align: left;
+  }
+  label {
+    text-align: right;
+  }
+  input[name="date"],
+  input[name="time"] {
+    width: 11rem;
+  }
+  input[name="party"] {
+    width: 3rem;
+  }
+}
+/*
+Menu
+*/
+#menu {
+  text-align: center;
+  h2 {
+    color: $color-menu-title;
+    margin-bottom: 1rem;
+  }
+  li {
+    list-style-type: none;
+    height: 11rem;
+    text-align: left;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    div {
+      display: flex;
+    }
+    img {
+      height: 6rem;
+    }
+    p {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  }
+}

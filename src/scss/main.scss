@@ -1,0 +1,19 @@
+/* Base */
+//@import "~bootstrap/scss/bootstrap.scss";
+
+:root {
+  font-size: 24px;
+  @media (max-width: 520px) {
+    font-size: 16px;
+  }
+  @media (max-width: 1100px) {
+    font-size: 18px;
+  }
+}
+
+@import "partials/_reset",
+  "partials/_variables",
+  "partials/_mixins",
+  "partials/_index",
+  "partials/_app.scss",
+  "partials/_navbar.scss";
