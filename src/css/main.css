@@ -70,14 +70,14 @@ Menu
     margin-bottom: 1rem; }
   #menu li {
     list-style-type: none;
-    height: 11rem;
     text-align: left;
     margin-left: 4rem;
     margin-bottom: 2rem; }
     #menu li div {
       display: flex; }
     #menu li img {
-      height: 6rem; }
+      height: auto;
+      max-width: 50% }
     #menu li p {
       font-size: 1rem;
       margin-left: 1rem; }
